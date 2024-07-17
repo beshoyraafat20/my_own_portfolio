@@ -2,4 +2,4 @@
 
 this is for creating my own website portfolio
 
-this my first project in web.
+this my first project in web
