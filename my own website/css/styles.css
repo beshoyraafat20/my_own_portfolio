@@ -12,28 +12,27 @@
     width: 100%;
     height: 10vh;
     position: fixed;
-    background-color: rgb(204, 216, 222);
+    background-color: #ccd8de;
     /* background-image: url("../images/header.png");
     background-size: cover;
     background-repeat: no-repeat; */
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 5%;
     z-index: 10000;
     
 }
 
 .logo {
     width: 100px;
- 
 }
 
 .navigtion ul{
     list-style-type: none;
     display: flex;
     justify-content:space-evenly;
-    font-size: 1.8em;
+    font-size: 1em;
 
 }
 
@@ -45,4 +44,47 @@
 
 .navigtion ul a:hover{
     color: #6b139a;
+}
+
+section {
+    padding:5%
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/hero.png");
+    background-attachment:fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color:#ccd8de;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ccd8de;
+    text-decoration: none;
+    color: #053f6f;
+    margin: 5% 0;
+    border-radius: 10Px;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.social-icons{
+    display: flex;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 1.7em;
+    color: #ccd8de;
 }
