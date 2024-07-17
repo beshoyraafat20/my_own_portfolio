@@ -1,2 +1,3 @@
-# my_own_portfolio
+# my own portfolio
+
 this is for creating my own website portfolio
